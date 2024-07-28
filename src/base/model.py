@@ -1,0 +1,9 @@
+from enum import Enum
+
+
+class QueryType(Enum):
+    SIMPLE = "SIMPLE"
+    COMPLEX = "COMPLEX"
+    SUMMARIZATION = "SUMMARIZATION"
+    ANALYTICAL = "ANALYTICAL"
+    REASONING = "REASONING"

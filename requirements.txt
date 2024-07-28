@@ -1,0 +1,5 @@
+pydantic
+pandas
+pandas-stubs
+requests
+types-requests
