@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 import requests
 
-from src.base.llm import LLM
+from ragameter.base.llm import LLM
 
 
 class GroqLLMConfig(BaseModel):

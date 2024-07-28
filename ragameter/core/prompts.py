@@ -1,4 +1,4 @@
-from src.base.model import QueryType
+from ragameter.base.model import QueryType
 
 
 def generate_n_reference_qns(

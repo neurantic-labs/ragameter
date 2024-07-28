@@ -1,6 +1,6 @@
-from src.base.model import QueryType
-from src.core.testdata_generator import TestDataConfigs, TestDataGenerator
-from src.llms.groq import GroqLLM, GroqLLMConfig
+from ragameter.base.model import QueryType
+from ragameter.core.testdata_generator import TestDataConfigs, TestDataGenerator
+from ragameter.llms.groq import GroqLLM, GroqLLMConfig
 
 
 if __name__ == "__main__":

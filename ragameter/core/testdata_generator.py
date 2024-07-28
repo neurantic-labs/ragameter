@@ -4,10 +4,10 @@ import json
 from pandas import DataFrame
 from pydantic import BaseModel
 
-from src.base.llm import LLM
-from src.base.model import QueryType
-from src.core.prompts import generate_n_reference_qns
-from src.core.testdata import TestData
+from ragameter.base.llm import LLM
+from ragameter.base.model import QueryType
+from ragameter.core.prompts import generate_n_reference_qns
+from ragameter.core.testdata import TestData
 
 
 class TestDataConfigs(BaseModel):
